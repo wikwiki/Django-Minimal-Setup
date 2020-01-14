@@ -14,17 +14,13 @@ This is a minimal django dev setup with:
 1. Git clone this repo
 2. Create a virtualenv
 
-        ```bash
         virtualenv envname
 
         python3 -m venv envname
-        ```
 
 3. Install requirements.txt
 
-        ```python
-        pip install -r requirements.taxt
-         ```
+        pip install -r requirements.txt
 
 Table of Contents:
 
@@ -34,7 +30,6 @@ Table of Contents:
 
 ## Django commands
 
-    ```bash
     #Start new django project
     django-admin startproject projectname
 
@@ -58,7 +53,6 @@ Table of Contents:
 
     #Create a superuser to access the admin site
     ./manage.py createsuperuser
-    ```
 
 ## Django settings
 
@@ -67,7 +61,6 @@ Table of Contents:
 
 2. Put the following in the .env file.
 
-        ```env
         #https://pypi.org/project/python-dotenv/
 
         #SET DEBUG: 1 is True, empty is False
@@ -86,7 +79,6 @@ Table of Contents:
         EMAIL = 1
         EMAIL_ADDRESS = ""
         EMAIL_PASSWORD = ""
-        ```
 
 ## Travis CI
 
@@ -97,7 +89,6 @@ Table of Contents:
 3. For python put this in the created file.
 Note that if travis does not build check for indentation and hidden chars.
 
-        ```travis
         # Minimal
         language: python
         install:
@@ -121,4 +112,3 @@ Note that if travis does not build check for indentation and hidden chars.
         script:
         - SECRET_KEY="whatever" ./manage.py test
 
-        ```
