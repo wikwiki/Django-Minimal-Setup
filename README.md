@@ -1,5 +1,7 @@
 # Minimal Django setup
 
+[![Build Status](https://travis-ci.com/Wickedm777/Django-minimal-setup.svg?branch=master)](https://travis-ci.com/Wickedm777/Django-minimal-setup)
+
 This is a minimal django dev setup with:
 
 - Django
