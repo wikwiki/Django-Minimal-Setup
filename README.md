@@ -111,4 +111,3 @@ Note that if travis does not build check for indentation and hidden chars.
         - export DATABASE_URL="postgres://postgres@localhost:5432/hiware"
         script:
         - SECRET_KEY="whatever" ./manage.py test
-
