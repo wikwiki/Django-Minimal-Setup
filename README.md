@@ -24,9 +24,9 @@ This is a minimal django dev setup with:
 
 Table of Contents:
 
-- [Django commands](#Django%20commands)
-- [Django settings](#Django%20settings)
-- [Travis CI](#Travis%20CI)
+- [Django commands](#Django-commands)
+- [Django settings](#Django-settings)
+- [Travis CI](#Travis-CI)
 
 ## Django commands
 
