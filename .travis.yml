@@ -1,7 +1,7 @@
 language: python
-  install: 
-    - "pip install -r requirements.txt"
-  before_script:
-    - export DATABASE_URL="sqlite:///db.sqlite3"
-  script:
-    - SECRET_KEY="whatever" ./manage.py test
+install: 
+  - "pip install -r requirements.txt"
+before_script:
+  - export DATABASE_URL="sqlite:///db.sqlite3"
+script:
+  - SECRET_KEY="whatever" ./manage.py test
