@@ -1,4 +1,3 @@
-# # https://docs.travis-ci.com/user/languages/python/
 language: python
   install: 
     - "pip install -r requirements.txt"
@@ -6,17 +5,3 @@ language: python
     - export DATABASE_URL="sqlite:///db.sqlite3"
   script:
     - SECRET_KEY="whatever" ./manage.py test
-
-# # Postgres example
-# language: python
-# python: 
-#   - "3.7"
-# install: 
-#   - "pip install -r requirements.txt"
-# services:
-#   - postgresql
-# before_script:
-#   - psql -c 'create database hiware;' -U postgres
-#   - export DATABASE_URL="postgres://postgres@localhost:5432/hiware"
-# script:
-#   - SECRET_KEY="whatever" ./manage.py test 
